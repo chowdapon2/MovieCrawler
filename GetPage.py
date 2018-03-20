@@ -1,9 +1,9 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 import time
 from bs4 import BeautifulSoup
 
-driver = webdriver.PhantomJS('C:\Users\Kevin_Chiou\MovieCrawler')
+
+driver = webdriver.PhantomJS('D:\Github\MovieCrawler\phantomjs.exe')
 # driver.implicitly_wait(5)
 # get()方法會一直等到頁面被完全加載，然後才會繼續程序
 driver.get("https://medium.com/topic/popular")
